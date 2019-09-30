@@ -1,0 +1,2 @@
+aws s3 sync s3://bucket-name/path/to/folder/ ./data/path/to/output/folder
+nohup ~/.local/bin/jupyter-notebook  2>&1 &

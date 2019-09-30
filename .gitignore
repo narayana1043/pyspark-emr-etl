@@ -1,0 +1,10 @@
+*~*
+*__pycache__*
+*.log*
+./data/*
+.DS_Store
+.idea/
+*package-lock.json
+tox.ini
+./data/*
+*/.ipynb_checkpoints/*
