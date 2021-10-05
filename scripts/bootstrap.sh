@@ -7,7 +7,7 @@ aws s3 cp s3://vmarni-etl/scripts/s3_rsa ~/.ssh/
 # chmod it
 chmod 400 ~/.ssh/s3_rsa
 # clone
-GIT_SSH_COMMAND='ssh -i ~/.ssh/s3_rsa -o "StrictHostKeyChecking no"' git clone git@bitbucket.org:interos/pyspark-etl.git ~/pyspark-etl/
+GIT_SSH_COMMAND='ssh -i ~/.ssh/s3_rsa -o "StrictHostKeyChecking no"' git clone git@bitbucket.org:vmarni/pyspark-etl.git ~/pyspark-etl/
 
 sudo easy_install-3.6 pip
 sudo /usr/local/bin/pip3 install pipenv
