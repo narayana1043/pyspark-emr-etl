@@ -3,7 +3,7 @@
 sudo yum install -y git
 
 # Copy ssh key from s3
-aws s3 cp s3://interos-etl/scripts/s3_rsa ~/.ssh/
+aws s3 cp s3://vmarni-etl/scripts/s3_rsa ~/.ssh/
 # chmod it
 chmod 400 ~/.ssh/s3_rsa
 # clone
